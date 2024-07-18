@@ -22,5 +22,16 @@ public class Constants {
    **********************************************************************/
   public static final double WGS84_f = 1/298.257223563;
 
+
+  /**
+   * CGCS2000坐标系 椭圆6378137m
+   */
+  public static final double CGCS2000_a = 6378137;
+
+  /**
+   * GCS2000坐标系 扁率 1/298.257222101
+   */
+  public static final double CGCS2000_f = 1/298.257222101;
+
   private Constants() {}
 }

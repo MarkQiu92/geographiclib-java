@@ -1224,6 +1224,9 @@ public class Geodesic {
   // - a 12 suffix means a difference, e.g., s12 = s2 - s1.
   // - s and c prefixes mean sin and cos
 
+  public static final Geodesic CGCS2000 =
+          new Geodesic(Constants.CGCS2000_a, Constants.CGCS2000_f);
+
   protected static double SinCosSeries(boolean sinp,
                                        double sinx, double cosx,
                                        double c[]) {
